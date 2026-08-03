@@ -11,7 +11,7 @@ class Solution {
             }
         }
         if(dp[0]>0) return"Alice";
-        else if(dp[0]<0) return"Bob";
-        else return "Tie";
+         if(dp[0]<0) return"Bob";
+         return "Tie";
     }
 }
